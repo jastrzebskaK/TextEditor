@@ -1,0 +1,48 @@
+html {
+  background: rgb(184, 182, 183);
+}
+.name {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  text-shadow: 2px 2px rgb(185, 150, 150);
+  font-size: 2rem;
+  letter-spacing: 5px;
+  border-color: lightslategrey;
+}
+
+#iframe {
+  display: flex;
+  height: 400px;
+  width: 600px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid #797e7ef1;
+}
+
+div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+button {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  background: rgb(250, 251, 252);
+  text-decoration: none;
+  text-align: center;
+  color: #000a0a;
+  border: 2px solid #797e7ef1;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+button:hover {
+  background: lightslategray;
+}
